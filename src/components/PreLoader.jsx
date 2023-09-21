@@ -9,9 +9,6 @@ const PreLoader = () => {
           <div className="preloader2"></div>
         </div>
       </div>
-      {/* <div className="preloader">
-        <div className="preloader-status"></div>
-      </div> */}
     </>
   );
 };

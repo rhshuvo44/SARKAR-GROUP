@@ -16,7 +16,7 @@ const SocialShare = () => {
         </li>
         <li>
           <a
-            href="https://www.twitter.com/"
+            href="https://www.twitter.com/sarkargroup65"
             target="_blank"
             className="twitter"
             rel="noreferrer"
@@ -26,32 +26,22 @@ const SocialShare = () => {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.instagram.com/sarkargroup65/"
             target="_blank"
-            className="linkedin"
+            className="instagram"
             rel="noreferrer"
           >
-            <i className="icofont-linkedin"></i>
+            <i className="icofont-instagram"></i>
           </a>
         </li>
         <li>
           <a
-            href="https://www.skype.com/"
+            href="https://www.youtube.com/@SarkarGroup65"
             target="_blank"
-            className="skype"
+            className="youtube"
             rel="noreferrer"
           >
-            <i className="icofont-skype"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.pinterest.com/"
-            target="_blank"
-            className="pinterest"
-            rel="noreferrer"
-          >
-            <i className="icofont-pinterest"></i>
+            <i className="icofont-youtube"></i>
           </a>
         </li>
       </ul>

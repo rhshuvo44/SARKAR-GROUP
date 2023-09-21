@@ -4390,7 +4390,7 @@ a.blog-read-more {
 /* =============== 31.Footer Section =============== */
 
 footer.footer {
-  background-image: url("/img/background/footer-bg.jpg");
+  background-image: url("/img/banner/slide5.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4398,7 +4398,7 @@ footer.footer {
 }
 
 footer .footer-overlay {
-  background-color: rgba(15, 25, 52, 0.97);
+  background-color: rgba(15, 25, 52, 0.93);
   height: 100%;
   left: 0;
   position: absolute;
