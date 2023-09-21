@@ -83,9 +83,8 @@ const MainMenu = (props) => {
                       >
                         Project
                       </Link>
-                      
                     </li>
-                    
+
                     <li>
                       <Link
                         className={
