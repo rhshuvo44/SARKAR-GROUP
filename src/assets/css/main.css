@@ -253,27 +253,49 @@ input:focus {
 }
 
 /* =============== 1.Preloader =============== */
-
-.preloader {
+.se-pre-con {
   position: fixed;
+  z-index: 9999;
   top: 0;
-  left: 0;
-  background-color: #fff;
-  z-index: 9999999;
-  right: 0;
-  bottom: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.preloader-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.preloader {
+  margin: auto;
+  background: url("./img/background/preloader.gif") no-repeat center;
+  object-fit: contain;
+  background-size: 70px;
+  width: 100px;
+  height: 100px;
 }
 
-.preloader-status {
-  height: 210px;
-  width: 210px;
-  background: url("/img/background/preloader.gif");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: -100px 0 0 -100px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
+.preloader2 {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #086ad8;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s ease-in-out infinite;
+  position: relative;
+  margin: auto;
+  top: -100px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* =============== 2.ScrollUp =============== */
