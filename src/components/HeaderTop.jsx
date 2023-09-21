@@ -17,7 +17,9 @@ const HeaderTop = () => {
                   </li>
                   <li>
                     <i className="icofont-mail"></i>
-                    <a href="mailto:info@finixpa.com">info@finixpa.com</a>
+                    <a href="mailto:info@sarkargroupofcompanies.com">
+                      info@sarkargroupofcompanies.com
+                    </a>
                   </li>
                 </ul>
               </div>
