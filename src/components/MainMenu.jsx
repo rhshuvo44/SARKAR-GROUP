@@ -5,15 +5,9 @@ import { useLocation } from "react-router-dom";
 import OffCanvasMenu from "./OffCanvasMenu";
 
 const MainMenu = (props) => {
-  const [isSearchVisible, setIsSearchVisible] = useState(true);
-  const toggleIcon = () => {
-    setIsSearchVisible(!isSearchVisible);
-  };
+  
 
-  const handleSearch = (event) => {
-    event.preventDefault();
-    event.target.reset();
-  };
+ 
 
   const { parentMenu } = props;
   const location = useLocation();
@@ -97,35 +91,6 @@ const MainMenu = (props) => {
                     </li>
                   </ul>
                 </nav>
-                <div className="search-bar-icon d-none d-lg-inline-block">
-                  <div className="site-search">
-                    <span
-                      id="dropdownMenuButton1"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      onClick={toggleIcon}
-                    >
-                      {isSearchVisible ? (
-                        <i className="icofont-search-2"></i>
-                      ) : (
-                        <i className="icofont-close-line"></i>
-                      )}
-                    </span>
-                    <div
-                      className="search-forum dropdown-menu animation slideUpIn"
-                      aria-labelledby="dropdownMenuButton1"
-                    >
-                      <form onSubmit={handleSearch}>
-                        <input
-                          placeholder="Search Here"
-                          type="text"
-                          name="search"
-                        />
-                        <input type="submit" value="Go" />
-                      </form>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col-lg-2 d-none d-lg-block apply-button-area">
