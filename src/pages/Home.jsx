@@ -22,8 +22,8 @@ const Home = () => {
       <WhyChooseUs />
       <CallToAction />
       <ProjectGallery />
-      <TeamHeader />
-      <Team />
+      {/* <TeamHeader />
+      <Team /> */}
       <Testimonial />
       {/* <LatestBlog /> */}
       <Footer />
