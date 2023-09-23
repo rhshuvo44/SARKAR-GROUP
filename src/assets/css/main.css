@@ -2569,6 +2569,10 @@ input:focus {
 
 .single-testimonial-v1 .testimonial-v1-img img {
   border-radius: 100%;
+  /* width: 100%; */
+  /* height: 60px;
+  width: 60px; */
+  object-fit: cover;
 }
 
 .single-testimonial-v1 .details h2 {
@@ -2984,6 +2988,7 @@ h1.faq-style1-title::before {
 .service-thumb img {
   transition: all 0.4s ease;
   width: 100%;
+  object-fit: cover;
   transform: scale(1);
 }
 

@@ -48,7 +48,7 @@ const AboutTabs = () => {
             aria-controls="pills-contact"
             aria-selected="false"
           >
-            Support
+            Vission
           </a>
         </li>
       </ul>

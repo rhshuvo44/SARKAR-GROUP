@@ -19,9 +19,10 @@ const Footer = () => {
                     <img src={footerLogo} alt="footerLogo" />
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, choro tamquam vim id, aliquip
-                    vivendo repudiare vim te, et his case vidisse tractatos. Nec
-                    bonorum iudicabit eloquentiam eu, at reque laboramus quo.
+                    Under the visionary leadership of the Founder and Chairman,
+                    MD SHAH ALAM, Sarkar Group and its subsidiaries have become
+                    one of the most renowned Shipping and Logistics service
+                    providers in Bangladesh.
                   </p>
                   <div className="footer-social">
                     <SocialShare />
