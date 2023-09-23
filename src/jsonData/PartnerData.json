@@ -22,5 +22,45 @@
   {
     "id": 6,
     "image": "partner_6.jpg"
+  },
+  {
+    "id": 7,
+    "image": "partner_7.jpg"
+  },
+  {
+    "id": 8,
+    "image": "partner_8.jpg"
+  },
+  {
+    "id": 9,
+    "image": "partner_9.jpg"
+  },
+  {
+    "id": 10,
+    "image": "partner_10.jpg"
+  },
+  {
+    "id": 11,
+    "image": "partner_11.jpg"
+  },
+  {
+    "id": 12,
+    "image": "partner_12.jpg"
+  },
+  {
+    "id": 13,
+    "image": "partner_13.jpg"
+  },
+  {
+    "id": 14,
+    "image": "partner_14.jpg"
+  },
+  {
+    "id": 15,
+    "image": "partner_15.jpg"
+  },
+  {
+    "id": 16,
+    "image": "partner_16.jpg"
   }
 ]
