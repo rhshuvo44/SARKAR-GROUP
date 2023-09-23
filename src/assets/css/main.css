@@ -2959,6 +2959,7 @@ h1.faq-style1-title::before {
 .service-sec .service-inner-text {
   padding: 10px 20px;
   padding-bottom: 30px;
+  height: 450px;
 }
 
 .service-page-sec .service-inner-text {
@@ -4515,7 +4516,7 @@ footer .footer-overlay {
   width: 100%;
   margin-top: -4px;
 }
-.footer-logo img{
+.footer-logo img {
   width: 180px;
   height: 60px;
   object-fit: cover;

@@ -14,7 +14,7 @@ const SingleService = ({ service }) => {
                 <img src={`/img/service/${image}`} alt="service" />
               </Link>
             </div>
-            <div className="service-inner-text">
+            <div className="service-inner-text ">
               <div className="media-wrap d-flex align-items-center">
                 <div className="media-left me-2 mb-2">
                   <div className="service_icon">
@@ -27,7 +27,7 @@ const SingleService = ({ service }) => {
                   </h2>
                 </div>
               </div>
-              <ul>
+              <ul className="">
                 {text?.map((item) => (
                   <li className="py-1" key={item}>
                     <i className="icofont-rounded-double-right"></i>
@@ -35,7 +35,6 @@ const SingleService = ({ service }) => {
                   </li>
                 ))}
               </ul>
-              {/* <p>{text}</p> */}
               <Link to="/service-details#" className="service-read-more">
                 Read More
               </Link>
