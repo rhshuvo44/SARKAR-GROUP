@@ -11,6 +11,7 @@ import LatestBlog from "../components/LatestBlog";
 import Footer from "../components/Footer";
 import Services from "../components/Services";
 import Header from "../components/Header";
+import Partner from "../components/Partner";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <ProjectGallery />
       {/* <TeamHeader />
       <Team /> */}
+      <Partner/>
       <Testimonial />
       {/* <LatestBlog /> */}
       <Footer />
