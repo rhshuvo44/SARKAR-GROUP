@@ -63,20 +63,18 @@ const AboutTabs = () => {
           <div className="about-desc">
             <h1>About Our Company</h1>
             <p>
-              Established in 1950, Acme Industries emerged as a powerhouse in
-              the industrial sector. With a commitment to innovation and
-              quality, the company quickly gained prominence. Through strategic
-              acquisitions and cutting-edge technologies, Acme expanded its
-              operations globally. Over the years, it has pioneered
-              groundbreaking solutions, revolutionizing manufacturing processes.
-              Today, Acme stands as a trusted industry leader, driven by a rich
-              heritage of excellence and a vision for a sustainable future{" "}
+              Renowned Shipping and Logistics service providers in Bangladesh.
             </p>
             <p>
-              With a rich heritage of 70 years, our company has evolved from
-              humble beginnings to become a global leader, shaping industries
-              through groundbreaking advancements and strategic partnerships
+              From a humble beginning in 1991, Sarkar Group of Companies has
+              become a pioneer and leader in the fields of Shipping and
+              Logistics business in Bangladesh over the past 30 years. What
+              started with one small office room with just one office staff,
+              today Sarkar Group of Companies spans its wing across the whole
+              country, having 5 companies, 3 branch offices and with almost 135
+              employees.
             </p>
+
             <Link to="#">Read More</Link>
           </div>
         </div>
@@ -90,19 +88,11 @@ const AboutTabs = () => {
           <div className="about-desc">
             <h1>About Our Mission</h1>
             <p>
-              At Acme Industries, our mission is to empower industries worldwide
-              through relentless innovation and unwavering commitment to
-              excellence. We strive to deliver cutting-edge solutions that
-              optimize productivity, enhance efficiency, and drive sustainable
-              growth. Our goal is to be a trusted partner, shaping the future of
-              industrial advancement with integrity and passion
+              We aim to be a world class company providing efficient,
+              affordable, sustainable, cost effective services of highet level
+              of quality.
             </p>
-            <p>
-              We strive to foster a culture of innovation, collaboration, and
-              sustainability, driving positive change in industries worldwide
-              while upholding the highest ethical standards. Together, we build
-              a better future
-            </p>
+
             <Link to="#">Read More</Link>
           </div>
         </div>
@@ -114,21 +104,13 @@ const AboutTabs = () => {
           tabIndex="0"
         >
           <div className="about-desc">
-            <h1>About Our Support</h1>
+            <h1>About Our Vission</h1>
             <p>
-              We are dedicated to providing unparalleled customer support. Our
-              team of highly skilled professionals is available round the clock
-              to address your needs and ensure smooth operations. We offer
-              comprehensive technical assistance, timely maintenance services,
-              and personalized solutions, aiming to exceed your expectations and
-              foster long-term partnerships.
+              Our mission is to import world class construction equipments,
+              road&apos;s & highways equipments with honesty. We also import
+              best quality spare parts for all construction equipments.
             </p>
-            <p>
-              Our support team is committed to your success, providing prompt
-              responses, troubleshooting expertise, and continuous training
-              opportunities. Your satisfaction is our priority, and we are here
-              to support you every step of the way.
-            </p>
+
             <Link to="#">Read More</Link>
           </div>
         </div>
