@@ -1,20 +1,20 @@
 [
-    {
-        "id": 1,
-        "title": "Great Business Advices",
-        "text": "Atomorum principes eu mea, at nec insolens dissentiet, no vis nulla lucilius. Nam veritus pericula id.",
-        "icon": "icofont-industries-2"
-    },
-    {
-        "id": 2,
-        "title": "Secure, Verifying, Fast Solution",
-        "text": "Atomorum principes eu mea, at nec insolens dissentiet, no vis nulla lucilius. Nam veritus pericula id.",
-        "icon": "icofont-rocket-alt-2"
-    },
-    {
-        "id": 3,
-        "title": "Life Time Support",
-        "text": "Atomorum principes eu mea, at nec insolens dissentiet, no vis nulla lucilius. Nam veritus pericula id.",
-        "icon": "icofont-live-support"
-    }
+  {
+    "id": 1,
+    "title": "Trusted by 5,000+ Happy Customers",
+    "text": "We believe in maintaining the highest standard of professionalism, integrity, ceativity, positive attitude, delivery that meets and surpass expectations whileoffering prompt and lasting solutions that stand the test of time.",
+    "icon": "icofont-industries-2"
+  },
+  {
+    "id": 2,
+    "title": "100% Client Satisfaction",
+    "text": "It signifies a customer-centric approach where a business focuses on meeting or exceeding the expectations and needs of its clients.",
+    "icon": "icofont-rocket-alt-2"
+  },
+  {
+    "id": 3,
+    "title": "World Class Worker",
+    "text": " World-class workers excel in their respective fields due to their outstanding skills and deep knowledge. They consistently produce high-quality work that demonstrates their expertise",
+    "icon": "icofont-live-support"
+  }
 ]
