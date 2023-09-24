@@ -91,7 +91,7 @@ const MainMenu = (props) => {
             </div>
             <div className="col-lg-2 d-none d-lg-block apply-button-area">
               <div className="apply-button">
-                <Link to="https://protal-admin.vercel.app/">
+                <Link to="https://sarkar-admin.web.app/">
                   <i className="icofont-user"></i>LogIn
                 </Link>
               </div>
