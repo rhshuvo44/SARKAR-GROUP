@@ -5,10 +5,6 @@ import { useLocation } from "react-router-dom";
 import OffCanvasMenu from "./OffCanvasMenu";
 
 const MainMenu = (props) => {
-  
-
- 
-
   const { parentMenu } = props;
   const location = useLocation();
   const [isSticky, setIsSticky] = useState(false);
@@ -95,8 +91,8 @@ const MainMenu = (props) => {
             </div>
             <div className="col-lg-2 d-none d-lg-block apply-button-area">
               <div className="apply-button">
-                <Link to="/contact#">
-                  <i className="icofont-live-support"></i>Get Support
+                <Link to="https://protal-admin.vercel.app/">
+                  <i className="icofont-user"></i>LogIn
                 </Link>
               </div>
             </div>

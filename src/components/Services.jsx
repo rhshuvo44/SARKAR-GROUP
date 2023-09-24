@@ -27,7 +27,7 @@ const Services = () => {
             </div>
             <div className="col-lg-3 col-md-3">
               <div className="latest-project-button">
-                <Link to="#">
+                <Link to="service">
                   View All Service <i className="icofont-long-arrow-right"></i>
                 </Link>
               </div>

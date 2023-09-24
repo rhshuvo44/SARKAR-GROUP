@@ -1,17 +1,14 @@
 import React from "react";
-import Banner from "../components/Banner";
 import AboutUs from "../components/AboutUs";
-import WhyChooseUs from "../components/WhyChooseUs";
+import Banner from "../components/Banner";
 import CallToAction from "../components/CallToAction";
-import ProjectGallery from "../components/ProjectGallery";
-import TeamHeader from "../components/TeamHeader";
-import Team from "../components/Team";
-import Testimonial from "../components/Testimonial";
-import LatestBlog from "../components/LatestBlog";
 import Footer from "../components/Footer";
-import Services from "../components/Services";
 import Header from "../components/Header";
 import Partner from "../components/Partner";
+import ProjectGallery from "../components/ProjectGallery";
+import Services from "../components/Services";
+import WhyChooseUs from "../components/WhyChooseUs";
+import LatestProject from "../components/LatestProject";
 
 const Home = () => {
   return (
@@ -22,10 +19,11 @@ const Home = () => {
       <Services />
       <WhyChooseUs />
       <CallToAction />
+      <LatestProject />
       <ProjectGallery />
       {/* <TeamHeader />
       <Team /> */}
-      <Partner/>
+      <Partner />
       {/* <Testimonial /> */}
       {/* <LatestBlog /> */}
       <Footer />

@@ -1,17 +1,13 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Keyboard, Pagination } from 'swiper';
-import TestimonialV2Data from '../jsonData/TestimonialV2Data.json'
-import SingleTestimonialV2 from './SingleTestimonialV2';
-import Counter from './Counter';
+import React from "react";
+import Counter from "./Counter";
 
 const TestimonialCountUp = () => {
-    return (
-        <>
-            <section className="testimonial-count-up-sec pt-100 pb-70">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6 col-md-12">
+  return (
+    <>
+      <section className="testimonial-count-up-sec pt-100 pb-70">
+        <div className="container">
+          <div className="row">
+            {/* <div className="col-lg-6 col-md-12">
                             <div className="all-testimonial">
                                 <Swiper
                                     modules={[Keyboard, Autoplay, Pagination]}
@@ -35,15 +31,14 @@ const TestimonialCountUp = () => {
                                     )}
                                 </Swiper>
                             </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12">
-                            <Counter />
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-    );
+                        </div> */}
+
+            <Counter />
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default TestimonialCountUp;

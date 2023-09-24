@@ -1,26 +1,38 @@
 [
-    {
-        "id": 1,
-        "image": "lp1.jpg",
-        "name": "Architechture Bridge",
-        "meta": "Power & Energy"
-    },
-    {
-        "id": 2,
-        "image": "lp2.jpg",
-        "name": "Ship Repair",
-        "meta": "Power & Energy"
-    },
-    {
-        "id": 3,
-        "image": "lp3.jpg",
-        "name": "Agricultural Development",
-        "meta": "Agricultural Processing"
-    },
-    {
-        "id": 4,
-        "image": "lp4.jpg",
-        "name": "Civil Engineering",
-        "meta": "Welding"
-    }
+  {
+    "id": 1,
+    "image": "lp1.jpg",
+    "name": "Meghna and Gumti 2nd Bridge Project",
+    "meta": "OSJI"
+  },
+  {
+    "id": 2,
+    "image": "lp2.jpg",
+    "name": "2nd Bhairab Railway Bridge Construction project .",
+    "meta": "ICON-AFCONS-JV"
+  },
+  {
+    "id": 3,
+    "image": "lp3.jpg",
+    "name": "2nd Kachpur Bridge Construction ",
+    "meta": "PEARL Engineering & Construction ."
+  },
+  {
+    "id": 4,
+    "image": "lp4.jpg",
+    "name": "Padma Multipurpose Bridge",
+    "meta": "MBEC ."
+  },
+  {
+    "id": 5,
+    "image": "lp4.jpg",
+    "name": "Dhaka Elevated.",
+    "meta": "PEARL Engineering & Construction ."
+  },
+  {
+    "id": 5,
+    "image": "lp4.jpg",
+    "name": "Padma Railway link",
+    "meta": "CREC"
+  }
 ]

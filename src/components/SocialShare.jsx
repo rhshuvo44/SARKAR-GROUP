@@ -6,7 +6,7 @@ const SocialShare = () => {
       <ul>
         <li>
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/sarkar.group12"
             target="_blank"
             className="facebook"
             rel="noreferrer"

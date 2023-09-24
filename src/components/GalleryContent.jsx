@@ -55,7 +55,7 @@ const GalleryContent = () => {
           className={activeCategory === "technology" ? "active" : ""}
           onClick={() => filterItem("technology")}
         >
-          Technology{" "}
+          Technology
         </li>
       </ul>
 

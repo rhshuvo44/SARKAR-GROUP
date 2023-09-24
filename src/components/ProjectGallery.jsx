@@ -3,6 +3,7 @@ import GalleryContent from "./GalleryContent";
 import LoadMoreProduct from "./LoadMoreProduct";
 
 const ProjectGallery = () => {
+  
   return (
     <>
       <section className="gallery-sec pt-100 pb-70">
@@ -25,6 +26,7 @@ const ProjectGallery = () => {
           <div className="row">
             <div className="gallery-area">
               <GalleryContent />
+
               <LoadMoreProduct />
             </div>
           </div>
