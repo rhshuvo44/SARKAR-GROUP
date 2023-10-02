@@ -1,13 +1,14 @@
 import React from "react";
-import SidebarCategory from "./SidebarCategory";
 import { HashLink as Link } from "react-router-hash-link";
-import serviceDetailsThumb from "/img/service/service_details.jpg";
 import ServiceDetailsData from "../jsonData/ServiceDetailsData.json";
-import RelatedServiceData from "../jsonData/RelatedServiceData.json";
+import SidebarCategory from "./SidebarCategory";
 import SingleServiceInfo from "./SingleServiceInfo";
-import SingleRelatedPost from "./SingleRelatedPost";
+import serviceDetailsThumb from "/img/service/service_details.jpg";
+import singleServiceData from "../jsonData/SingleServiceData.json";
+import { useParams } from "react-router-dom";
 
 const ServiceDetailsContent = () => {
+  const { id } = useParams();
   return (
     <>
       <section className="service-details-page pt-100 pb-100">
@@ -32,7 +33,7 @@ const ServiceDetailsContent = () => {
                     </li>
                     <li>
                       <Link to="#">
-                        <i className="icofont-file-document me-2"></i>{" "}
+                        <i className="icofont-file-document me-2"></i>
                         Download.Doc
                         <span>
                           <i className="icofont-download-alt"></i>
@@ -45,21 +46,42 @@ const ServiceDetailsContent = () => {
             </div>
             <div className="col-md-8">
               <div className="service-details">
-                <div className="service-details-thumb">
-                  <img src={serviceDetailsThumb} alt="serviceDetails" />
-                </div>
-                <h2>
-                  Repair Technology Eos no luptatum incorrupte. Ex dicant mucius
-                  pro, ignota detraxit mnesarchum sed cu. Vim no affert
-                  eligendi.
-                </h2>
-                <p>
-                  Eos no luptatum incorrupte. Ex dicant mucius pro, ignota
-                  detraxit mnesarchum sed cu. Vim no affert eligendi. Habeo
-                  efficiantur liberavisse nam ea. Eu est animal facilisis, sea
-                  ubique placerat in. Nonumy fierent vel ut, cu mea errem nullam
-                  facilisi.
-                </p>
+                {singleServiceData
+                  .filter((item) => item.id == id)
+                  .map((service) => (
+                    <>
+                      <div
+                        key={service.title}
+                        className="service-details-thumb"
+                      >
+                        <img
+                          src={`/img/service/${service.img}`}
+                          alt="serviceDetails"
+                        />
+                      </div>
+                      <h2>{service.title}</h2>
+                      <p>{service.text}</p>
+                    </>
+                  ))}
+                {/* {singleServiceData.filter((id===id)  (
+                  <>
+                    <div key={id} className="service-details-thumb">
+                      <img src={serviceDetailsThumb} alt="serviceDetails" />
+                    </div>
+                    <h2>
+                      Repair Technology Eos no luptatum incorrupte. Ex dicant
+                      mucius pro, ignota detraxit mnesarchum sed cu. Vim no
+                      affert eligendi.
+                    </h2>
+                    <p>
+                      Eos no luptatum incorrupte. Ex dicant mucius pro, ignota
+                      detraxit mnesarchum sed cu. Vim no affert eligendi. Habeo
+                      efficiantur liberavisse nam ea. Eu est animal facilisis,
+                      sea ubique placerat in. Nonumy fierent vel ut, cu mea
+                      errem nullam facilisi.
+                    </p>
+                  </>
+                ))} */}
                 <div className="row">
                   {ServiceDetailsData.map((serviceInfo) => (
                     <div className="col-md-6" key={serviceInfo.id}>
@@ -68,7 +90,7 @@ const ServiceDetailsContent = () => {
                   ))}
                 </div>
               </div>
-              <div className="related-service">
+              {/* <div className="related-service">
                 <div className="related-service-title">
                   <div className="col-md-12">
                     <div className="sec-title">
@@ -86,7 +108,7 @@ const ServiceDetailsContent = () => {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

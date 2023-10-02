@@ -2,13 +2,13 @@ import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
 const SingleRelatedPost = ({ relatedPost }) => {
-  const { image, icon, title, text } = relatedPost;
+  const { id, image, icon, title, text } = relatedPost;
 
   return (
     <>
       <div className="media">
         <div className="service-thumb">
-          <Link to="/service-details#">
+          <Link to={`/service-details/${id}`}>
             <img src={`img/service/${image}`} alt="serviceImage" />
           </Link>
           <div className="service-icon"></div>
@@ -22,7 +22,7 @@ const SingleRelatedPost = ({ relatedPost }) => {
             </div>
             <div className="media-body">
               <h2>
-                <Link to="/service-details#">{title}</Link>
+                <Link to={`/service-details/${id}`}>{title}</Link>
               </h2>
             </div>
           </div>

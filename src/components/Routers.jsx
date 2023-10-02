@@ -1,8 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import About from "../pages/About";
-import Blog from "../pages/Blog";
-import BlogDetails from "../pages/BlogDetails";
 import Contact from "../pages/Contact";
 import Error404 from "../pages/Error404";
 import Home from "../pages/Home";
@@ -20,11 +18,9 @@ const Routers = () => {
         <Route path="/about" element={<About />}></Route>
         <Route path="/service" element={<Service />}></Route>
         <Route path="/service-2" element={<Service2 />}></Route>
-        <Route path="/service-details" element={<ServiceDetails />}></Route>
+        <Route path="/service-details/:id" element={<ServiceDetails />}></Route>
         <Route path="/project" element={<Project />}></Route>
         <Route path="/project-details" element={<ProjectDetails />}></Route>
-        <Route path="/blog" element={<Blog />}></Route>
-        <Route path="/blog-details" element={<BlogDetails />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="*" element={<Error404 />}></Route>
       </Routes>

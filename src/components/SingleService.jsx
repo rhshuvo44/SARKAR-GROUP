@@ -2,7 +2,7 @@ import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
 const SingleService = ({ service }) => {
-  const { image, icon, title, text } = service;
+  const { id, image, icon, title, text } = service;
 
   return (
     <>
@@ -10,7 +10,7 @@ const SingleService = ({ service }) => {
         <div className="inner">
           <div className="media">
             <div className="service-thumb">
-              <Link to="/service-details#">
+              <Link to={`/service-details/${id}`}>
                 <img src={`/img/service/${image}`} alt="service" />
               </Link>
             </div>
@@ -23,7 +23,7 @@ const SingleService = ({ service }) => {
                 </div>
                 <div className="media-body">
                   <h2>
-                    <Link to="/service-details#">{title}</Link>
+                    <Link to={`/service-details/${id}`}>{title}</Link>
                   </h2>
                 </div>
               </div>
@@ -35,7 +35,7 @@ const SingleService = ({ service }) => {
                   </li>
                 ))}
               </ul>
-              <Link to="/service-details#" className="service-read-more">
+              <Link to={`/service-details/${id}`} className="service-read-more">
                 Read More
               </Link>
             </div>

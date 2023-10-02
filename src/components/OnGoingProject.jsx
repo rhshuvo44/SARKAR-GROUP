@@ -78,11 +78,6 @@ const OnGoingProject = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            {/* {LatestProjectData.map((project) => (
-              <div className="col-lg-3 col-md-6" key={project.id}>
-                <SingleLatestProject project={project} />
-              </div>
-            ))} */}
           </div>
         </div>
       </section>
