@@ -9,6 +9,7 @@ import ProjectGallery from "../components/ProjectGallery";
 import Services from "../components/Services";
 import WhyChooseUs from "../components/WhyChooseUs";
 import LatestProject from "../components/LatestProject";
+import OnGoingProject from "../components/OnGoingProject";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <WhyChooseUs />
       <CallToAction />
       <LatestProject />
+      <OnGoingProject />
       <ProjectGallery />
       {/* <TeamHeader />
       <Team /> */}
