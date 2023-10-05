@@ -1,8 +1,7 @@
 import React from "react";
-import { HashLink as Link } from "react-router-hash-link";
-import projectDetailsThumb from "/img/projects/project-details.jpg";
 import projectThumb1 from "/img/projects/project-col-1.jpg";
 import projectThumb2 from "/img/projects/project-col-2.jpg";
+import projectDetailsThumb from "/img/projects/project-details.jpg";
 
 const ProjectDetailsContent = () => {
   return (
@@ -36,10 +35,12 @@ const ProjectDetailsContent = () => {
               </div>
               <div className="project-details-desc">
                 <h2>
-                  <Link to="#">
+                  Mei facer causae et, ridens eruditi indoctum ut qui. Unum
+                  iisque disputando per ei
+                  {/* <Link to="#">
                     Mei facer causae et, ridens eruditi indoctum ut qui. Unum
                     iisque disputando per ei
-                  </Link>
+                  </Link> */}
                 </h2>
                 <p>
                   Mei facer causae et, ridens eruditi indoctum ut qui. Unum

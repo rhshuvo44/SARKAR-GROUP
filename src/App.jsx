@@ -19,6 +19,9 @@ import PreLoader from "./components/PreLoader";
 import { Helmet } from "react-helmet";
 
 function App() {
+  const disableRightClick = (e) => {
+    e.preventDefault();
+  };
   //  Preloader
   const [isLoading, setIsLoading] = useState(true);
 
@@ -33,7 +36,7 @@ function App() {
       {isLoading ? (
         <PreLoader />
       ) : (
-        <div>
+        <div onContextMenu={disableRightClick}>
           <Helmet>
             <title>SARKAR GROUP</title>
             <link rel="shortcut icon" href="../public/favicon.ico"></link>

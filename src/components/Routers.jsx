@@ -14,15 +14,15 @@ const Routers = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/service" element={<Service />}></Route>
-        <Route path="/service-2" element={<Service2 />}></Route>
-        <Route path="/service-details/:id" element={<ServiceDetails />}></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/service-2" element={<Service2 />} />
+        <Route path="/service-details/:id" element={<ServiceDetails />} />
         <Route path="/project" element={<Project />}></Route>
-        <Route path="/project-details" element={<ProjectDetails />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="*" element={<Error404 />}></Route>
+        <Route path="/project-details" element={<ProjectDetails />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Error404 />} />
       </Routes>
     </>
   );

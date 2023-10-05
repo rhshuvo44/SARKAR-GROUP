@@ -1,11 +1,10 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import ServiceDetailsData from "../jsonData/ServiceDetailsData.json";
+import singleServiceData from "../jsonData/SingleServiceData.json";
 import SidebarCategory from "./SidebarCategory";
 import SingleServiceInfo from "./SingleServiceInfo";
-import serviceDetailsThumb from "/img/service/service_details.jpg";
-import singleServiceData from "../jsonData/SingleServiceData.json";
-import { useParams } from "react-router-dom";
 
 const ServiceDetailsContent = () => {
   const { id } = useParams();
@@ -63,9 +62,8 @@ const ServiceDetailsContent = () => {
                       <p>{service.text}</p>
                     </>
                   ))}
-                {/* {singleServiceData.filter((id===id)  (
-                  <>
-                    <div key={id} className="service-details-thumb">
+
+                {/* <div key={id} className="service-details-thumb">
                       <img src={serviceDetailsThumb} alt="serviceDetails" />
                     </div>
                     <h2>
@@ -79,9 +77,8 @@ const ServiceDetailsContent = () => {
                       efficiantur liberavisse nam ea. Eu est animal facilisis,
                       sea ubique placerat in. Nonumy fierent vel ut, cu mea
                       errem nullam facilisi.
-                    </p>
-                  </>
-                ))} */}
+                    </p> */}
+
                 <div className="row">
                   {ServiceDetailsData.map((serviceInfo) => (
                     <div className="col-md-6" key={serviceInfo.id}>

@@ -12,7 +12,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-3">
               <div className="latest-project-title">
                 <span>Get Service</span>
-                <h1>Our Service</h1>
+                <h1>Our Services</h1>
               </div>
             </div>
             <div className="col-lg-5 col-md-6">
