@@ -1,38 +1,27 @@
 [
   {
     "id": 1,
-    "image": "lp1.jpg",
+    "image": "lp8.jpg",
     "name": "Padma Railway link",
     "meta": "CREC"
   },
   {
     "id": 2,
-    "image": "lp2.jpg",
+    "image": "lp7.jpg",
     "name": "Asulia Elevated",
     "meta": "ICON-AFCONS-JV"
   },
   {
     "id": 3,
-    "image": "lp3.jpg",
+    "image": "lp9.jpg",
     "name": "BSMRBCP",
     "meta": "IHI"
   },
+  
   {
     "id": 4,
-    "image": "lp4.jpg",
-    "name": "Padma Multipurpose Bridge",
-    "meta": "MBEC ."
-  },
-  {
-    "id": 5,
-    "image": "lp4.jpg",
+    "image": "lp6.jpg",
     "name": "Dhaka Elevated.",
     "meta": "PEARL Engineering & Construction ."
-  },
-  {
-    "id": 5,
-    "image": "lp4.jpg",
-    "name": "Padma Railway link",
-    "meta": "CREC"
   }
 ]
