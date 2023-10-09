@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 import { HashLink as Link } from "react-router-hash-link";
 
 const SingleBanner = ({ banner }) => {
-  const { image, title, text, btn1, btn2 } = banner;
+  const { image, title, btn1, btn2 } = banner;
 
   return (
     <>
@@ -19,7 +19,7 @@ const SingleBanner = ({ banner }) => {
                 <h1>{title}</h1>
               </Fade>
               <Fade top>
-                <p>{text}</p>
+                {/* <p>{text}</p> */}
                 <ul>
                   <li>
                     <Link to="/about#">

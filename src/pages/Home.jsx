@@ -23,11 +23,7 @@ const Home = () => {
       <LatestProject />
       <OnGoingProject />
       <ProjectGallery />
-      {/* <TeamHeader />
-      <Team /> */}
       <Partner />
-      {/* <Testimonial /> */}
-      {/* <LatestBlog /> */}
       <Footer />
     </>
   );
