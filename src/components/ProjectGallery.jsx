@@ -3,7 +3,6 @@ import GalleryContent from "./GalleryContent";
 import LoadMoreProduct from "./LoadMoreProduct";
 
 const ProjectGallery = () => {
-  
   return (
     <>
       <section className="gallery-sec pt-100 pb-70">
@@ -15,10 +14,10 @@ const ProjectGallery = () => {
                 <h1>Company Project Gallery</h1>
                 <div className="border-shape"></div>
                 <p>
-                  Lorem ipsum dolor sit amet, lorem nibh lectus urna arcu, lorem
-                  erat semper, auctor suspendisse quisque molestie ut. Elit
-                  massa dui, leo enim magna. Cursus maecenas cubilia, ac
-                  nonummy, egestas mauris .
+                  Under the visionary leadership of the Founder and Chairman,
+                  <b>MD SHAH ALAM</b>, Sarkar Group and its subsidiaries have
+                  become one of the most renowned Shipping and Logistics service
+                  providers in Bangladesh.
                 </p>
               </div>
             </div>
