@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import GalleryData from "../jsonData/GalleryData";
 import SingleProjectGallery from "./SingleProjectGallery";
+import { useLocation } from "react-router-dom";
 
 const GalleryContent = () => {
+  const location = useLocation();
   const [items, setItems] = useState(GalleryData);
   const [activeCategory, setActiveCategory] = useState("all");
 
@@ -61,11 +63,17 @@ const GalleryContent = () => {
 
       <div className="gallery-container">
         <div className="row">
-          {items.map((gallery) => (
-            <div className="col-md-6 col-lg-3" key={gallery.id}>
-              <SingleProjectGallery gallery={gallery} />
-            </div>
-          ))}
+          {location.pathname === "/"
+            ? items.slice(0, 8).map((gallery) => (
+                <div className="col-md-6 col-lg-3" key={gallery.id}>
+                  <SingleProjectGallery gallery={gallery} />
+                </div>
+              ))
+            : items.map((gallery) => (
+                <div className="col-md-6 col-lg-3" key={gallery.id}>
+                  <SingleProjectGallery gallery={gallery} />
+                </div>
+              ))}
         </div>
       </div>
     </>
