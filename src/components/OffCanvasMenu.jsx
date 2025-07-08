@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
-import logoMini from "/img/logo/logo.png";
+import logoMini from "/img/logo/mini-logo.png";
 
 const OffCanvasMenu = () => {
 
@@ -27,7 +27,7 @@ const OffCanvasMenu = () => {
       >
         <div className="offcanvas-header">
           <Link to="/#">
-            <img src={logoMini} alt="logo" />
+            <img className="" src={logoMini} alt="logo" />
           </Link>
           <button
             type="button"

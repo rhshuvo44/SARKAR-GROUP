@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import footerLogo from "/img/logo/ft-logo.png";
+import footerLogo from "/img/logo/logo.png";
 import SocialShare from "./SocialShare";
 import FooterBottom from "./FooterBottom";
 
@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="footer-widget-one">
                   <h2 className="footer-title-one">Company Info</h2>
                   <Link to="/#" className="footer-logo">
-                    <img src={footerLogo} alt="footerLogo" />
+                    <img className="w-75" src={footerLogo} alt="footerLogo" />
                   </Link>
                   <p>
                     Under the visionary leadership of the Founder and Chairman,
