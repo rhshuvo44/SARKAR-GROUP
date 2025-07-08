@@ -1,31 +1,30 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import GalleryData from "../jsonData/GalleryData";
-import { useGetAllProductsQuery } from "../redux/features/products/productApi";
+// import { useGetAllProductsQuery } from "../redux/features/products/productApi";
 import SingleProjectGallery from "./SingleProjectGallery";
 
 const GalleryContent = () => {
   const location = useLocation();
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState(GalleryData);
   const [activeCategory, setActiveCategory] = useState("all");
-  const { data, isError, isLoading } =
-    useGetAllProductsQuery();
-    //   {
-    //   search: "generator",
-    //   category: "CIVIL",
-    //   status: "WORKING",
-    //   page: 1,
-    //   limit: 10,
-    //   sortBy: "createdAt",
-    //   sortOrder: "desc",
-    // }
+  // const { data, isError, isLoading } = useGetAllProductsQuery();
+  //   {
+  //   search: "generator",
+  //   category: "CIVIL",
+  //   status: "WORKING",
+  //   page: 1,
+  //   limit: 10,
+  //   sortBy: "createdAt",
+  //   sortOrder: "desc",
+  // }
 
-  console.log(data?.products);
-  useEffect(() => {
-    setItems(GalleryData);
-  }, [data?.products]);
-  if (isLoading) return <div>Loading...</div>;
-  if (isError) return <div>Error: {isError}</div>;
+  // console.log(data?.products);
+  // useEffect(() => {
+  //   setItems(GalleryData);
+  // }, [data?.products]);
+  // if (isLoading) return <div>Loading...</div>;
+  // if (isError) return <div>Error: {isError}</div>;
 
   const filterItem = (categoryItem) => {
     const updatedItems = GalleryData.filter((currentElement) => {

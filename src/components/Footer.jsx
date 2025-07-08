@@ -1,8 +1,7 @@
-import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import footerLogo from "/img/logo/logo.png";
-import SocialShare from "./SocialShare";
 import FooterBottom from "./FooterBottom";
+import SocialShare from "./SocialShare";
+import footerLogo from "/img/logo/logo.png";
 
 const Footer = () => {
   return (
@@ -12,11 +11,11 @@ const Footer = () => {
         <div className="footer-sec">
           <div className="container">
             <div className="row">
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-3 col-md-6">
                 <div className="footer-widget-one">
                   <h2 className="footer-title-one">Company Info</h2>
                   <Link to="/#" className="footer-logo">
-                    <img className="w-75" src={footerLogo} alt="footerLogo" />
+                    <img className="" src={footerLogo} alt="footerLogo" />
                   </Link>
                   <p>
                     Under the visionary leadership of the Founder and Chairman,
@@ -34,26 +33,21 @@ const Footer = () => {
                   <h2>our solutions</h2>
                   <ul>
                     <li>
-                      <Link to="#">Factory Energy Power</Link>
+                      <Link to="#">Logistics & Shipping</Link>
                     </li>
                     <li>
-                      <Link to="#">Chemical Research</Link>
+                      <Link to="#">NAVIGATION</Link>
                     </li>
                     <li>
-                      <Link to="#">Expert Mechanical</Link>
+                      <Link to="#">Engineering Works</Link>
                     </li>
                     <li>
-                      <Link to="#">civil engineering</Link>
+                      <Link to="#">Shipbuilders & Dockyard</Link>
                     </li>
                     <li>
-                      <Link to="#">oil & gas services</Link>
+                      <Link to="#">IT Solutions</Link>
                     </li>
-                    <li>
-                      <Link to="#">Repair Technology</Link>
-                    </li>
-                    <li>
-                      <Link to="#">Refinery Petroleum</Link>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -76,16 +70,11 @@ const Footer = () => {
                     <li>
                       <Link to="/contact#">site map</Link>
                     </li>
-                    <li>
-                      <Link to="#">trust People</Link>
-                    </li>
-                    <li>
-                      <Link to="#">Our Project</Link>
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-4 col-md-6">
                 <div className="footer-widget-four">
                   <h2>contact form</h2>
                   <div className="footer-contact-inner">
