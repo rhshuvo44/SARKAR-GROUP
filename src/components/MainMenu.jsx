@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import logo from "/img/logo/logo.png";
-import { HashLink as Link } from "react-router-hash-link";
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import OffCanvasMenu from "./OffCanvasMenu";
+import logo from "/img/logo/logo.png";
 
 const MainMenu = (props) => {
   const { parentMenu } = props;
@@ -91,7 +91,7 @@ const MainMenu = (props) => {
             </div>
             <div className="col-lg-2 d-none d-lg-block apply-button-area">
               <div className="apply-button">
-                <Link to="https://sarkar-admin.web.app/">
+                <Link to="https://dashboard.sarkargroupofcompanies.com/dashboard">
                   <i className="icofont-user"></i>LogIn
                 </Link>
               </div>

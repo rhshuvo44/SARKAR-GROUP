@@ -1,10 +1,9 @@
-import React from "react";
 import { useLocation } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import { Autoplay, Keyboard } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import LatestProjectData from "../jsonData/LatestProjectData.json";
 import SingleLatestProject from "./SingleLatestProject";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Keyboard } from "swiper";
 
 const LatestProject = () => {
   const location = useLocation();

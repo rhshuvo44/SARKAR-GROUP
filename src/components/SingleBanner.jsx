@@ -1,5 +1,4 @@
-import React from "react";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import { HashLink as Link } from "react-router-hash-link";
 
 const SingleBanner = ({ banner }) => {
