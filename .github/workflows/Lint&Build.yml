@@ -103,9 +103,9 @@ jobs:
     name: 🚀 Deploy to VPS
     runs-on: ubuntu-latest
     needs: [build] # Only deploy if build succeeded
-    steps:
-      - name: 📡 Deploy via SSH
-        uses: appleboy/ssh-action@v1.0.3
+    # steps:
+    #   - name: 📡 Deploy via SSH
+    #     uses: appleboy/ssh-action@v1.0.3
         # with:
         #   host: ${{ secrets.VPS_HOST }}
         #   username: ${{ secrets.VPS_USER }}
