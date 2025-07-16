@@ -8,7 +8,7 @@ on:
 
 jobs:
   lint:
-    name: Run ESLint (No Docker)
+    name: Run ESLint
     runs-on: ubuntu-latest
 
     steps:
