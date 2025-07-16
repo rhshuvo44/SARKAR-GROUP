@@ -74,6 +74,14 @@ const MainMenu = (props) => {
                         Project
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        className={parentMenu === "product" ? "active" : ""}
+                        to="/product#"
+                      >
+                        Product
+                      </Link>
+                    </li>
 
                     <li>
                       <Link

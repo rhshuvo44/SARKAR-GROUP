@@ -5,11 +5,11 @@ import Header from "../components/Header";
 import NavigationProjects from "../components/NavigationProjects";
 import ProjectContent from "../components/ProjectContent";
 
-const Project = () => {
+const Product = () => {
   return (
     <>
-      <Header parentMenu="project" />
-      <Breadcrumb pageTitle="Project Page" />
+      <Header parentMenu="product" />
+      <Breadcrumb pageTitle="Product Page" />
       <NavigationProjects />
       <EngineeringProjects />
       {/* <LatestProject />
@@ -20,4 +20,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Product;

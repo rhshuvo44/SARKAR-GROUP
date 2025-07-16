@@ -83,7 +83,7 @@ const Footer = () => {
                         <i className="icofont-google-map"></i>
                       </div>
                       <div className="footer-contact-info-text">
-                        <span>6/A S.K. Road, Friends Market, 5th Floor .</span>
+                        <span>6/A S.K. Road, Friends Market, 5th Floor</span>
                         <span>Narayanganj-1400</span>
                       </div>
                     </div>

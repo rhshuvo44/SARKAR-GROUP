@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import LatestProjectData from "../jsonData/LatestProjectData.json";
 import SingleLatestProject from "./SingleLatestProject";
 
-const LatestProject = () => {
+const LatestProject = ({project}) => {
   const location = useLocation();
   return (
     <>
@@ -15,7 +15,7 @@ const LatestProject = () => {
             <div className="col-md-4">
               <div className="latest-project-title">
                 <span>Latest Projects</span>
-                <h1>Completed Project</h1>
+                <h1>{project.title} Project</h1>
               </div>
             </div>
             <div className="col-md-5">

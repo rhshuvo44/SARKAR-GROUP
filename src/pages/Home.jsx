@@ -1,15 +1,14 @@
-import React from "react";
 import AboutUs from "../components/AboutUs";
 import Banner from "../components/Banner";
 import CallToAction from "../components/CallToAction";
+import EngineeringProjects from "../components/EngineeringProjects";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import NavigationProjects from "../components/NavigationProjects";
 import Partner from "../components/Partner";
 import ProjectGallery from "../components/ProjectGallery";
 import Services from "../components/Services";
 import WhyChooseUs from "../components/WhyChooseUs";
-import LatestProject from "../components/LatestProject";
-import OnGoingProject from "../components/OnGoingProject";
 
 const Home = () => {
   return (
@@ -20,8 +19,8 @@ const Home = () => {
       <Services />
       <WhyChooseUs />
       <CallToAction />
-      <LatestProject />
-      <OnGoingProject />
+      <NavigationProjects />
+      <EngineeringProjects />
       <ProjectGallery />
       <Partner />
       <Footer />
