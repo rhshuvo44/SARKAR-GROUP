@@ -1,4 +1,3 @@
-import React from "react";
 
 const SingleServiceInfo = ({ serviceInfo }) => {
   const { icon, title, text } = serviceInfo;
