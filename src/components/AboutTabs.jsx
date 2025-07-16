@@ -1,4 +1,3 @@
-import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
 const AboutTabs = () => {
@@ -75,7 +74,7 @@ const AboutTabs = () => {
               employees.
             </p>
 
-            <Link to="#">Read More</Link>
+            <Link to="/about">Read More</Link>
           </div>
         </div>
         <div
@@ -93,7 +92,7 @@ const AboutTabs = () => {
               of quality.
             </p>
 
-            <Link to="#">Read More</Link>
+            <Link to="/about">Read More</Link>
           </div>
         </div>
         <div
@@ -111,7 +110,7 @@ const AboutTabs = () => {
               best quality spare parts for all construction equipments.
             </p>
 
-            <Link to="#">Read More</Link>
+            <Link to="/about">Read More</Link>
           </div>
         </div>
       </div>
