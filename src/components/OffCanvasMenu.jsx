@@ -3,8 +3,6 @@ import { HashLink as Link } from "react-router-hash-link";
 import logoMini from "/img/logo/mini-logo.png";
 
 const OffCanvasMenu = () => {
-
-
   const location = useLocation();
 
   return (
@@ -87,9 +85,7 @@ const OffCanvasMenu = () => {
                       Projects
                     </Link>
                   </li>
-                  
-                  
-                 
+
                   <li className="nav-item">
                     <Link
                       className={
@@ -103,6 +99,16 @@ const OffCanvasMenu = () => {
                     </Link>
                   </li>
                 </ul>
+                <div className=" d-block apply-button-area">
+                  <div className="apply-button">
+                    <Link
+                      className="btn btn-lg mt-2 btn-info"
+                      to="https://dashboard.sarkargroupofcompanies.com/dashboard"
+                    >
+                      <i className="icofont-user"></i>LogIn
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </nav>
