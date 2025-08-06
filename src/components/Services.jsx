@@ -34,7 +34,7 @@ const Services = () => {
             </div>
           </div>
           <div className="row">
-            {ServicesData.slice(0, 5).map((service) => (
+            {ServicesData.slice(0, 7).map((service) => (
               <div className="col-md-6 col-lg-4" key={service.id}>
                 <SingleService service={service} />
               </div>

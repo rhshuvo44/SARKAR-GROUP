@@ -37,13 +37,13 @@
     "icon": "icofont-repair",
     "title": "Engineering Works",
     "text": [
-      "Capital Management.",
-      "Environmental Engineering.",
-      "Materials Management.",
-      "Materials happy and febrication.",
-      "Manufacturing products/good as per SOI/Wo.",
-      "Materials/machinery Manufacturing and repairing.",
-      "Total Quality Management."
+      "Materials management",
+      "Marine technical support",
+      "Ship attending",
+      "Ship design and analysis",
+      "Underwater Inspections and Surveys",
+      "Emergency response and salvage operations",
+      "On-demand project engineering facilities"
     ],
     "btn": "Read More",
     "btnLink": "/"
@@ -53,13 +53,49 @@
     "image": "s4.jpg",
     "icon": "icofont-ship",
     "title": "Shipbuilders & Dockyard",
-    "text": ["Shipbuilding yard.", "Docking and repairing facilities"],
+    "text": [
+      "All kinds of marine vessel construction",
+      "Repair and maintenance / Shipbuilding, docking, and repairing facilities",
+      "Hull fabrication, using, and finishing",
+      "Installing of propulsion systems and outfitting interiors",
+      "Sandblasting & painting",
+      "Inspection to ensure vessels comply with safety and regulatory standards"
+    ],
     "btn": "Read More",
     "btnLink": "/"
   },
   {
     "id": 5,
     "image": "s5.jpg",
+    "icon": "icofont-ship",
+    "title": "Civil service",
+    "text": [
+      "Heavy Lift Specialist.",
+      "RHeavy Construction Equipment Leasing.",
+      "Multi modal Logistics service provider.",
+      "Specialized transportation of heavy consignments by hydraulic modular Azle, Low bed/high bed Trailers.",
+      "Construction of a temporary jetty on the river banks. Unbading of cargo from the barge and onward transportation at the designated location of the site"
+    ],
+    "btn": "Read More",
+    "btnLink": "/"
+  },
+  {
+    "id": 6,
+    "image": "s6.jpg",
+    "icon": "icofont-ship",
+    "title": "Marine Service",
+    "text": [
+      "Floating Heavy Lifting Specialist.",
+      "Project cargo service",
+      "Heavy products shipping service",
+      "Marine Heavy equipment rental, support, and service"
+    ],
+    "btn": "Read More",
+    "btnLink": "/"
+  },
+  {
+    "id": 7,
+    "image": "s7.jpg",
     "icon": "icofont-network",
     "title": "IT Solutions",
     "text": [
